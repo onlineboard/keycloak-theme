@@ -33,7 +33,8 @@ function Login() {
                 kcContext={kcContext}
                 {...{
                     ...defaultKcProps,
-                    "stylesCommon": []
+                    "stylesCommon": [],
+                    "styles": [],
                 }}
             />
         </>
