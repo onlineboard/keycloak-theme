@@ -168,6 +168,33 @@ input[type=submit]:focus {
     box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
 }
 
+
+a#zocial-facebook {
+    appearance: none;
+    padding: 0.5em 0.75em;
+    cursor: pointer;
+    border-radius: 3px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: transparent;
+    border: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    background: #4267B2;
+    color: #fff;
+    font-size: 1rem;
+}
+
+a#zocial-facebook:hover {
+    background: #324f89;
+}
+
+a#zocial-facebook:active {
+    background: #203255;
+}
+
+
 input[type=submit][disabled] {
     background: #eee;
     color: #aaa;
